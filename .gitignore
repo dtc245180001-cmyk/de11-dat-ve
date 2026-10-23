@@ -1,0 +1,34 @@
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Logs and runtime data
+logs/
+*.log
+
+# Database files and backups
+*.sql.gz
+*.dump
+*.bak
+*.backup
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Dependencies and temporary files
+vendor/
+node_modules/
+*.tmp
+*.swp
+
+# Promtail runtime data
+loki/promtail-data/
+
+# Backup files
+*.bak
